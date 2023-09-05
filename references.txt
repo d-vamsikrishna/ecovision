@@ -1,0 +1,8 @@
+things speak channel - https://thingspeak.com/channels/2249950/private_show
+
+ppt - https://www.canva.com/design/DAFshkcormI/XPJ4DZ3nAVBkJ4WXT9WBWA/edit?utm_content=DAFshkcormI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+ml- https://www.kaggle.com/code/sumn2u/garbage-classification/notebook
+    https://www.kaggle.com/datasets/techsash/waste-classification-data
+    https://www.kaggle.com/code/ahmadjaved097/multiclass-image-classification-using-cnn
+iot- https://electronics-project-hub.com/iot-based-garbage-monitoring-system/

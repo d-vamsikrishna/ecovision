@@ -1,0 +1,58 @@
+India faces many waste management problems such as collection and disposal leading to health and pollution problems.
+Here we offer an idea for implementing a solution that reduces the impact of an improper waste management system:
+
+
+Garbage collection:
+First, we set up IoT bins according to the amount of waste. They are designed in two ways, one for small scale and the other for large scale.
+
+Small scale (small household):
+We install small IoT trash bins (using ultrasonic sensors and GSM modems and GPS) that detect waste levels and the location of trash bins.
+We encourage people to use the IoT bins provided by offering certain rewards like money and gift vouchers. (A small portion of obtained profits)
+
+Large scale (Community or large waste generator):
+Here we have installed large IoT bins (using ultrasonic sensors, GSM modem) with solar panels that detect the level and location of the bin, and generate electrical power.
+In this case, we get people's interest by providing free electricity for common uses like parking lights, street lights, etc.(which is a small portion of the energy generated from solar panels and the remaining energy is sent to the power stations to get benefit commercially)
+
+To reduce the overflow of IoT bins, we implement it in such a way that the bins are automatically closed when the level of the trash in the bin reaches more than 95% on both large and small scale levels but the person who collects it can override this condition.
+
+
+Transportation of collected waste:
+By knowing the level and location of the IoT Bin, we develop an algorithm that guides us through the garbage collection route. (Here we try to choose roads connecting places where the waste level is greater than 80% so that we can reduce the frequent travel distance.)
+
+We collect garbage with trucks where the level of the garbage is >80%, not where the level of the garbage is below 80%, because there is still space left to fill the bin and also saves time for the person who collects it and shortens the journey.
+
+If people can leave home for holidays, keeping this scenario in mind, we give the user an option to contact the number mentioned on our website so that the person will be allotted to collect the waste, if the stated request by the user is valid even when the waste is <80%.
+
+
+Waste Segregation:
+We classify the collected waste into two stages.
+1. Level 1 classification using IoT:
+Here, we separate the collected waste into two parts using the Moisture Sensor:
+a. Dry waste
+b. Wet waste
+
+2. Level 2 using Ml algorithm:
+Using ML algorithm and image recognition, we further classify dry waste into 3 categories:
+a. Biodegradable waste
+b. Recyclable waste
+c. Non-Recyclable Waste
+
+
+Waste Disposal:
+From the classified categories, we follow different processes for each category:
+1. Biodegradable waste(Wet-Waste+ Biodegradable Dry Waste):
+We turn this biodegradable waste into Biogas (Sent to Power Stations for commercial purposes) and Digestate(Fertiliser, Soil Amendments, and Live Stock Bedding which are available for purchase from our website).
+2. Recyclable waste:
+We send recyclable waste to our connected recycling units(For Commercial purposes). 
+3. Non-Recyclable Waste:
+We burn this non-recyclable waste and generate electricity(Some part of the generated electricity is used for internal operations and the excess is sent to Power Stations for Commercial purpose). During this process, some toxic gases may be released into the environment. To avoid this and make it eco-friendly, we use wet-packed scrubber systems so that they absorb toxic gases.
+
+We wish to donate saplings to NGOs for plantation once in 3 months based on the amount of waste collected. (10 saplings per ton) 
+
+
+Apart from all this, we  will develop a website with certain features like:
+1. We provide the ability for people or authorities to contact us if they want to donate food (leftovers from parties or hotels) to those in need. 
+2. To create or participate in waste reduction campaigns (Participants will be rewarded)
+3. Providing videos on effective waste management practices.
+
+In this way, we are trying to find a solution that can improve the waste management system.
